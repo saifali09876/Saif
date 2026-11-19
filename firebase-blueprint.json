@@ -1,0 +1,22 @@
+{
+  "entities": {
+    "UserProfile": {
+      "description": "Per-user student profile synced across devices",
+      "type": "object",
+      "properties": {
+        "userId": { "type": "string" },
+        "displayName": { "type": "string" },
+        "educationLevel": { "type": "string" },
+        "language": { "type": "string" },
+        "updatedAt": { "type": "timestamp" }
+      },
+      "required": ["userId", "displayName", "educationLevel", "language"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "UserProfile",
+      "description": "Authenticated user's own profile document"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "firestore": [
+    {
+      "database": "ai-studio-android-gramvidy-7dfb56ff-2926-470c-8953-0da471eb2c6c",
+      "rules": "firestore.rules"
+    }
+  ]
+}

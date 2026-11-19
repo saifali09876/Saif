@@ -1,0 +1,6 @@
+{
+  "name": "GramVidya",
+  "description": "Offline-first AI learning assistant with textbook-grounded RAG, multilingual explanations, quizzes, study planner, and voice/camera doubt solver for rural students.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
